@@ -1,11 +1,11 @@
 function checkPrime(num)
     let factore =0;
      for(let i=0;i<=num;i++){
-     if(num%i==2{
+     if(num%i==0){
      factore++;
      }
    }
- if(factore==0){
+ if(factore==2){
        return true;
     }
    return false
